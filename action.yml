@@ -11,7 +11,7 @@ outputs:
     description: 'Suare of the input'
     value: ${{ steps.get-square.outputs.num_squared }}
 runs:
-  using: 'compisite'
+  using: 'composite'
   steps:
     - name: Install Python
       used: actions/setup-python@v4
