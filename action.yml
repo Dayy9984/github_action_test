@@ -6,6 +6,7 @@ inputs:
   num:
     description : 'Enter a number.'
     required : true
+    default: "1"
 outputs:
   num_squared:
     description : 'Square of the number'
